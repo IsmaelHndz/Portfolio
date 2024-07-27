@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iván López Reynoso</title>
+        <link rel="icon" type="icon" href="img/icon.ico">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Pagina de pruebas">
+        <meta property="og:description" content="descripcion del contenido">
+        <meta property="og:image" content="/img/image.jpg">
+        <meta property="og:image:alt" content="Foto de Iván">
+
+        <link rel="alternate" href="http://otherpage.com/en-us/" hreflang="en-us">
+        <link rel="canonical" href="http://otherpage.com"> <!--pagina principal-->
+        
+        
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <a href="img/pestaña.png" class="brand-logo">Director de Orquesta</a>
+            
+            <div class="nav-wrapper">    
+                <ul class="nav-links">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#biography">Biografía</a></li>
+                    <li><a href="#events">Eventos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        <!-- Contenido principal aquí -->
+    
+        <h1>CURSO DE HTML</h1>
+
+        <p>pruebas del curso de <strong>midu</strong></p>
+
+        <h2>SEGUNDO TITULO</h2>
+
+        <img
+            width="200"
+            height="200"
+            title="Iván López Reynoso"
+            alt="Foto del director de orquesta Iván López" 
+            src="img/image.jpg"
+        >
+
+        <h1 id="primera">CURSO DE HTML</h1>
+
+        <p>pruebas del curso de <strong>midu</strong></p>
+
+        <h2 id="segunda">SEGUNDO TITULO</h2>
+        
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Infoirmación de contacto</legend>
+                    <label>Correo:
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="tu_correo@example.com"
+                        >
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>NUMERO</legend>
+                        <label>telefono:
+                            <input type="tel" name="phone" placeholder="+52 ">
+                        </label>
+                    </div>
+                    
+                </fieldset>
+                <label>Ingresa una opción:</label>
+                <select>
+                    <option value="1">Trabajo</option>
+                    <option value="2">Dudas</option>
+                    <option value="3">Más información</option>
+                </select>
+                <button>enviar Formulario</button>
+            </form>
+        </section>
+        <h></h>
+        <section>
+            <label>Uso del datalist: </label>
+            <datalist id="ubicaciones">
+                <option value="Mexico"></option>
+                <option value="USA"></option>
+                <option value="España"></option>
+                <option value="Canadá"></option>
+            </datalist>
+            <label>De qué ciudad nos contactas?
+                <input list="ubicaciones" name="ubicaciones"
+            </label>
+
+        </section>
+
+    </body>
+    <footer>
+        Copyright
+
+        <a href="mailto:ismael.isx21@gmail.com">ismael.isx21@gmail.com</a>
+        <a href="tel:+523143529773">Llamar por teléfono </a>
+        <a href="whatsapp://send?text=Hola Iván López"
+    </footer>
+    </body>
+</html>

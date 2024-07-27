@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Pagina  de pruebas</title>
+        <meta name="theme-color" content="#009B4D">
+        <link rel="icon" type="image/jpg" href="/img/image.jpg">
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Pagina de pruebas">
+        <meta property="og:description" content="descripcion del contenido">
+        <meta property="og:image" content="/img/image.jpg">
+        <meta property="og:image:alt" content="Foto de Iván">
+
+        <link rel="alternate" href="http://otherpage.com/en-us/" hreflang="en-us">
+        <link rel="canonical" href="http://otherpage.com"> <!--pagina principal-->
+
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#primera">Primer link </a>
+                <a href="#segunda">Segundo link </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+            </nav>
+        </header>
+        
+        <!-- Asi se ponen los comentarios en HTML-->
+
+        <h1>CURSO DE HTML</h1>
+
+        <p>pruebas del curso de <strong>midu</strong></p>
+
+        <h2>SEGUNDO TITULO</h2>
+
+        <ul>
+            <li>cosa 1</li>
+            <li>cosa 2</li>
+            <li>cosa 3</li>
+        </ul>
+
+        <img
+            width="200"
+            height="200"
+            title="Iván López Reynoso"
+            alt="Foto del director de orquesta Iván López" 
+            src="img/image.jpg"
+        >
+
+        <h1 id="primera">CURSO DE HTML</h1>
+
+        <p>pruebas del curso de <strong>midu</strong></p>
+
+        <h2 id="segunda">SEGUNDO TITULO</h2>
+
+        <ul>
+            <li>cosa 1</li>
+            <li>cosa 2</li>
+            <li>cosa 3</li>
+        </ul>
+        <a download href="img/image.jpg">
+            <img loading="lazy"
+            width="200"
+            height="200"
+            title="Iván López Reynoso"
+            alt="Foto del director de orquesta Iván López" 
+            src="img/image.jpg"
+        >
+        </a>
+        
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Infoirmación de contacto</legend>
+                    <label>Correo:
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="tu_correo@example.com"
+                        >
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>NUMERO</legend>
+                        <label>telefono:
+                            <input type="tel" name="phone" placeholder="+52 ">
+                        </label>
+                    </div>
+                    
+                </fieldset>
+                <label>Ingresa una opción:</label>
+                <select>
+                    <option value="1">Trabajo</option>
+                    <option value="2">Dudas</option>
+                    <option value="3">Más información</option>
+                </select>
+                <button>enviar Formulario</button>
+            </form>
+        </section>
+        <h></h>
+        <section>
+            <label>Uso del datalist: </label>
+            <datalist id="ubicaciones">
+                <option value="Mexico"></option>
+                <option value="USA"></option>
+                <option value="España"></option>
+                <option value="Canadá"></option>
+            </datalist>
+            <label>De qué ciudad nos contactas?
+                <input list="ubicaciones" name="ubicaciones"
+            </label>
+
+        </section>
+
+    </body>
+    <footer>
+        Copyright
+
+        <a href="mailto:ismael.isx21@gmail.com">ismael.isx21@gmail.com</a>
+        <a href="tel:+523143529773">Llamar por teléfono </a>
+        <a href="whatsapp://send?text=Hola Iván López"
+    </footer>
+</html>

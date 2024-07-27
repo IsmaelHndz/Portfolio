@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Director de Orquesta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Director de Orquesta</a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#biography">Biografía</a></li>
+                <li><a href="#events">Eventos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Biografía -->
+    <section id="biography" class="section">
+        <div class="container">
+            <h2>Biografía</h2>
+            <p>Párrafo 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet mi finibus, consequat arcu vitae, scelerisque justo.</p>
+            <p>Párrafo 2: Vivamus tempor, justo sit amet cursus pulvinar, leo ligula interdum elit, eu vulputate eros leo non velit.</p>
+            <p>Párrafo 3: Quisque a eros in libero gravida malesuada vel at eros. Integer at eros neque.</p>
+            <p>Párrafo 4: Donec a semper libero. Fusce venenatis, felis eget bibendum venenatis, dolor nunc condimentum libero.</p>
+            <p>Párrafo 5: Sed fringilla libero at justo ultrices, nec fringilla mi efficitur. Nulla facilisi.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Eventos -->
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Próximos Eventos</h2>
+            <ul>
+                <li>Evento 1: Concierto en la Filarmónica de Nueva York - 15 de Julio de 2024</li>
+                <li>Evento 2: Concierto en la Ópera de París - 22 de Agosto de 2024</li>
+                <li>Evento 3: Concierto en el Teatro Colón, Buenos Aires - 30 de Septiembre de 2024</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Información de contacto</legend>
+                    <label>Correo:
+                        <input type="email" name="email" placeholder="tu_correo@example.com">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <legend>Número</legend>
+                        <label>Teléfono:
+                            <input type="tel" name="phone" placeholder="+52 ">
+                        </label>
+                    </div>
+                </fieldset>
+                <label>Ingresa una opción:</label>
+                <select>
+                    <option value="1">Trabajo</option>
+                    <option value="2">Dudas</option>
+                    <option value="3">Más información</option>
+                </select>
+                <button type="submit">Enviar Formulario</button>
+            </form>
+            <section>
+                <label>Uso del datalist: </label>
+                <datalist id="ubicaciones">
+                    <option value="Mexico"></option>
+                    <option value="USA"></option>
+                    <option value="España"></option>
+                    <option value="Canadá"></option>
+                </datalist>
+                <label>¿De qué ciudad nos contactas?
+                    <input list="ubicaciones" name="ubicaciones">
+                </label>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Director de Orquesta</h5>
+                    <p class="grey-text text-lighten-4">Síguenos en nuestras redes sociales para más actualizaciones.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Redes Sociales</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 Director de Orquesta
+                <a class="grey-text text-lighten-4 right" href="mailto:director@orquesta.com">director@orquesta.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

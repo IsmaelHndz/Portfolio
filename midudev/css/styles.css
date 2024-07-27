@@ -1,0 +1,79 @@
+/* Estilos para la barra de navegación */
+.nav-wrapper {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.brand-logo {
+    font-size: 1.5rem;
+    color: gold;
+    font-weight: bold;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: gold;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Animaciones */
+body {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.section {
+    animation: slideIn 1s ease-out;
+    margin: 20px 0;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Otros estilos */
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 0 20px;
+}
